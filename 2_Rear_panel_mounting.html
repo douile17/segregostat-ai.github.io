@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Segregostat: Technical documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+        <script type="text/javascript" src="./static/3d-viewer.js"></script>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper">
+        <div class=header-text>
+   
+    <a class="site-title" href="./">Segregostat: Technical documentation</a>
+   
+    <p class="author">by Andrew ZICLER</p>
+    <p class="affiliation">MiPI TERRA / @Gembloux BELGIUM</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Segregostat: Technical documentation
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./landing_BOM.html">
+        Bill of Materials
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./1_Chassis_assembly.html">
+        1. Chassis assembly
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./2_Rear_panel_mounting.html">
+        2. Rear panel mounting
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./3_Front_panel_mounting.html">
+        3. Front panel mounting
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./4_motherboard_assembly.html">
+        4. Frame and panel assembly 
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./5_electrical_wiring.html">
+        5. Electrical wiring
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./6_cover_assembly.html">
+        6. Cover assembly
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./7_first_power_up.html">
+        7. First power up
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./8_Installation_on_cyto.html">
+        8. Installation on the Cytometer 
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1>2. Rear panel mounting</h1>
+<h3>Parts</h3>
+<ul>
+<li>2 <a href="Parts/D-sub15.html">Dsub 15 connectors</a> </li>
+<li>6 <a href="Parts/Visdsub.html">Dsub Screws</a> </li>
+<li>16 <a href="Parts/M3x20.html">M3x20</a> </li>
+<li>4 <a href="Parts/M4nut.html">M4 Nuts</a> </li>
+<li>16 <a href="Parts/M3Nut.html">M3 nuts</a> </li>
+<li>1 <a href="Parts/Rs232.html">Rs232 Connector</a> </li>
+<li>2 <a href="Parts/SupportWago.html">Wago suuport</a> </li>
+<li>12 <a href="Parts/M3x6.html">M3x6</a> </li>
+<li>2 <a href="Parts/Wago.html">Wago</a> </li>
+<li>1 <a href="Parts/DcSocket.html">DC socket</a> </li>
+<li>1 <a href="Parts/SwitchOnOFF.html">switch On Off</a> </li>
+<li>1 <a href="Parts/FuseHolder.html">Fuse Holder</a> </li>
+<li>2 <a href="Parts/Relay.html">Relays</a> </li>
+</ul>
+<h3>Tools</h3>
+<ul>
+<li>2 <a Class="missing" href="missing">Pliers</a> </li>
+<li>1 <a Class="missing" href="missing">2mm Allen key</a> </li>
+</ul>
+<h2 class="page-step" id="big-part">Step 1: Big part</h2>
+<ul>
+<li>Assemble the two parts,<a href="models/BackLeft.html" title="">BackLeft.stl</a> &amp; <a href="models/BackRight.html" title="">BackRight.stl</a>, by fitting them together following the green arrows.  </li>
+</ul>
+<p><img alt="" src="images/2_Rear panel mounting/fitBackPlate1.jpg" title="" /></p>
+<h2 class="page-step" id="dsub-15-support">Step 2: Dsub 15 Support</h2>
+<ul>
+<li>Take the 3d printed part <a href="models/SupportDsub15.html" title="">Support Dsub 15.stl</a> and screw the <a href="Parts/D-sub15.html">Dsub 15 connectors</a> (x2) with <a href="Parts/Visdsub.html">Dsub Screws</a> (x4) and tighten with two small <a Class="missing" href="missing">Pliers</a> .</li>
+</ul>
+<p><img alt="" src="images/2_Rear panel mounting/Dsub15Suport1.jpg" title="" /></p>
+<h2 class="page-step" id="first-weld">Step 3: First weld</h2>
+<ul>
+<li>
+<p>Solder two 6 cm <a href="Parts/YelloWire.html" title="">yellow wire</a> (0,2 mm²) to pin 8 and 13 of the <a href="Parts/D-sub15.html" title="">D-sub 15 Connector</a> and save the solder with <a href="Parts/HeatShrinkTubing.html" title="">Heat Shrink Tubing 1.6 mm sleeve Ø</a> (see pictures).
+<em>Do not connect the second part of the wire</em></p>
+</li>
+<li>
+<p>Repeat the same process for the second <a href="Parts/D-sub15.html" title="">D-sub 15 Connector</a>. </p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/2_Rear panel mounting/WeldDsub15.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/2_Rear panel mounting/RelaysWeld.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/2_Rear panel mounting/WeldDsub15.JPG" alt=""/></div>
+<h2 class="page-step" id="installing-dsub-15-support-on-de-rear-panel">Step 4: Installing Dsub 15 support on de Rear panel</h2>
+<ul>
+<li>
+<p>Insert the <a href="Parts/M3x20.html">M3x20</a> (x4) as shown in the picture with the green arrows</p>
+</li>
+<li>
+<p>Put 4 <a href="Parts/M4nut.html">M4 Nuts</a> inside the holes (green arrows) an thighten the screws with a <a Class="missing" href="missing">2mm Allen key</a>.</p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/2_Rear panel mounting/Supportdb15OnPlate.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/2_Rear panel mounting/Supoortdb15nut.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/2_Rear panel mounting/Supportdb15OnPlate.jpg" alt=""/></div>
+
+<h2 class="page-step" id="installing-fan">Step 5: Installing Fan</h2>
+<ul>
+<li>Insert the fan (blue arrow), make sure that its electrical cables passes through the cable management pipe (green Arrow). </li>
+</ul>
+<p><span style="color:red"> <strong>Make sure that the fan sticker is facing the grille on the rear panel.</strong></span></p>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/2_Rear panel mounting/backFan.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/2_Rear panel mounting/fanWires.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show2" src="images/2_Rear panel mounting/backFan.jpg" alt=""/></div>
+
+<ul>
+<li>
+<p>Insert the <a href="Parts/M3x20.html">M3x20</a> (x4) (blue arrows).</p>
+</li>
+<li>
+<p>Tighten  the previous screws with 4 <a href="Parts/M3Nut.html">M3 nuts</a> (red arrows).</p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/2_Rear panel mounting/fanScrew.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/2_Rear panel mounting/fanNuts.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show3" src="images/2_Rear panel mounting/fanScrew.jpg" alt=""/></div>
+<h2 class="page-step" id="rs232-connector">Step 6: Rs232 connector</h2>
+<ul>
+<li>
+<p>Put the <a href="Parts/Rs232.html">Rs232 Connector</a> on the <a href="models/rs232support.html" title="">Rs232 Support.stl</a> (3d printed).</p>
+</li>
+<li>
+<p>Tighten the 2 <a href="Parts/Visdsub.html">Dsub Screws</a> using 2 nuts supplied with the screws.</p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/2_Rear panel mounting/rs232support.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/2_Rear panel mounting/rs232Backnut.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show4" src="images/2_Rear panel mounting/rs232support.jpg" alt=""/></div>
+<ul>
+<li>
+<p>Insert the Rs232 support on the rear panel, and use 4 <a href="Parts/M3x20.html">M3x20</a> and <a href="Parts/M3Nut.html">M3 nuts</a> to secure the assembly.</p>
+</li>
+<li>
+<p>Solder the 3 pins of the connector with 3 different coloured wires (0,2 mm² / 34cm)  to easily connect to the board later.</p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show5').src=this.src" src="images/2_Rear panel mounting/drawRs232.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show5').src=this.src" src="images/2_Rear panel mounting/Rs232solder.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show5" src="images/2_Rear panel mounting/drawRs232.jpg" alt=""/></div>
+<h2 class="page-step" id="usb-socket">Step 7: USB socket</h2>
+<ul>
+<li>Insert the USB socket, and use 4 <a href="Parts/M3x20.html">M3x20</a> and <a href="Parts/M3Nut.html">M3 nuts</a>  and tighten the M3 screws.</li>
+</ul>
+<p><img alt="" src="images/2_Rear panel mounting/usbSocket.jpg" title="" /> </p>
+<h2 class="page-step" id="wago">Step 8: Wago</h2>
+<ul>
+<li>
+<p>Fix the two <a href="Parts/SupportWago.html">Wago suuport</a> (green arrow) with the 2 <a href="Parts/M3x6.html">M3x6</a> (red arrows) directly into the plastic of the panel. </p>
+</li>
+<li>
+<p>Put the 2 <a href="Parts/Wago.html">Wago</a> inside the support.</p>
+</li>
+</ul>
+<p><img alt="" src="images/2_Rear panel mounting/supportWago.jpg" title="" />  </p>
+<h2 class="page-step" id="dc-socket--switch-on-off--fuse-holder">Step 9: Dc socket / Switch ON OFF / Fuse Holder</h2>
+<ul>
+<li>
+<p>Install the <a href="Parts/DcSocket.html">DC socket</a> and thighten it with it's nut (Green arrow).</p>
+</li>
+<li>
+<p>Now insert the <a href="Parts/SwitchOnOFF.html">switch On Off</a>, just push through the hole (Blue arrow).</p>
+</li>
+<li>
+<p>Finally install the <a href="Parts/FuseHolder.html">Fuse Holder</a> and tighten it with it's own screw (Pink arrow). </p>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show6').src=this.src" src="images/2_Rear panel mounting/organesFront1.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show6').src=this.src" src="images/2_Rear panel mounting/organesBack.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show6" src="images/2_Rear panel mounting/organesFront1.jpg" alt=""/></div>
+
+<h2 class="page-step" id="relays">Step 10: Relays</h2>
+<ul>
+<li>Fix 2 <a href="Parts/Relay.html">Relays</a> on the <a href="models/supportRelays.html" title="">supportRelays.stl</a> with 8 <a href="Parts/M3x6.html">M3x6</a> and tighten all screws inside the plastic holes.</li>
+</ul>
+<p><img alt="" src="images/2_Rear panel mounting/supportRelays.jpg" title="" /></p>
+<ul>
+<li>Use the screws for the D-sub 15 connectors to fix the support relays on the back (see the first picture) and tighten it with <a href="Parts/M3Nut.html">M3 nuts</a> (x4).</li>
+</ul>
+<p><span style="color:red"> <strong>Make sure the 4 cables are routed through the notches under the relay support on the left (see second pictures).First cable on the COM port &amp; second on the NC .</strong></span> <strong><em>(See electrical diagram)</em></strong></p>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show7').src=this.src" src="images/2_Rear panel mounting/supRelayOnPlate.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show7').src=this.src" src="images/2_Rear panel mounting/wireUnderSuportRelay.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show7" src="images/2_Rear panel mounting/supRelayOnPlate.jpg" alt=""/></div>
+
+<hr />
+<p><a href="1_Chassis_assembly.html">Previous page</a> | <a href="3_Front_panel_mounting.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.terra.uliege.be/cms/c_4054766/en/terra">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png">
+    <span class="info">Technical documentation for the Segregostat ©</span>
+</a>
+    <p class="author">©2021 Andrew ZICLER</p>
+    <p class="email">Contact: <a href="mailto:andrew.zicler@gmail.com">andrew.zicler@gmail.com</a></p>
+
+    </div>
+</footer></body>
+</html>

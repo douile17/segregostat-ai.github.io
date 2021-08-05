@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Segregostat: Technical documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+        <script type="text/javascript" src="./static/3d-viewer.js"></script>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper">
+        <div class=header-text>
+   
+    <a class="site-title" href="./">Segregostat: Technical documentation</a>
+   
+    <p class="author">by Andrew ZICLER</p>
+    <p class="affiliation">MiPI TERRA / @Gembloux BELGIUM</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Segregostat: Technical documentation
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./landing_BOM.html">
+        Bill of Materials
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./1_Chassis_assembly.html">
+        1. Chassis assembly
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./2_Rear_panel_mounting.html">
+        2. Rear panel mounting
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./3_Front_panel_mounting.html">
+        3. Front panel mounting
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./4_motherboard_assembly.html">
+        4. Frame and panel assembly 
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./5_electrical_wiring.html">
+        5. Electrical wiring
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./6_cover_assembly.html">
+        6. Cover assembly
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./7_first_power_up.html">
+        7. First power up
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./8_Installation_on_cyto.html">
+        8. Installation on the Cytometer 
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1>1. Chassis assembly</h1>
+<h3>Parts</h3>
+<ul>
+<li>16 <a href="Parts/M4nut.html">M4 Nuts</a> </li>
+<li>4 <a href="Parts/M4x12CountersunkHead.html">M4x12 Countersunk Head</a> </li>
+<li>4 <a href="Parts/M5sqnut.html">M5 square</a> </li>
+<li>4 <a href="Parts/M5x120.html">M5x120</a> </li>
+<li>8 <a href="Parts/M2x12CHC.html">M2x12</a> </li>
+<li>4 <a href="Parts/M5x25hex.html">M5x25 HEX</a> </li>
+<li>1 <a href="Parts/Motherboard.html">Motherboard</a> </li>
+</ul>
+<h3>Tools</h3>
+<ul>
+<li>1 <a Class="missing" href="missing">2.5mm Allen key</a> </li>
+<li>1 <a Class="missing" href="missing">7 open end wrench</a> </li>
+</ul>
+<hr />
+<h2 class="page-step" id="insert-nuts">Step 1: Insert nuts</h2>
+<ul>
+<li>Take the 3d printed part <a href="models/CR_2.html" title="">CR_2.stl</a> and insert the 2 x <a href="Parts/M4nut.html">M4 Nuts</a> inside the holes.</li>
+</ul>
+<p><img alt="" src="images/1_chassis/CR2.jpg" title="" /></p>
+<h2 class="page-step" id="screw-the-two-parts-together">Step 2: Screw the two parts together</h2>
+<ul>
+<li>
+<p>Get a <a Class="missing" href="missing">2.5mm Allen key</a> ready.</p>
+</li>
+<li>
+<p>Take the 3d printed part <a href="models/CR_1.html" title="">CR_1.stl</a>.</p>
+</li>
+<li>
+<p>Put the 2 screws <a href="Parts/M4x12CountersunkHead.html">M4x12 Countersunk Head</a> and screw the two parts together
+(CR_2 &amp; CR_1).</p>
+</li>
+</ul>
+<p><img alt="" src="images/1_chassis/CR21.jpg" title="" /></p>
+<h2 class="page-step" id="mirror-repeat">Step 3: Mirror repeat</h2>
+<ul>
+<li>Take the <a href="models/CL_1.html" title="">CL_1.stl</a> &amp; <a href="models/CL_2.html" title="">CL_2.stl</a> parts and screw them together with 2 screws <a href="Parts/M4x12CountersunkHead.html">M4x12 Countersunk Head</a> and 
+ <a href="Parts/M4nut.html">M4 Nuts</a> (x2). </li>
+</ul>
+<p><span style="color:red">!! Tighten all screws for this two steps !! </span>.</p>
+<p><img alt="" src="images/1_chassis/CLR2211.jpg" title="" /></p>
+<h2 class="page-step" id="coupling">Step 4: Coupling</h2>
+<ul>
+<li>
+<p>Take the two <a href="models/Acc.html" title="">Acc.stl</a> 3d printed parts.</p>
+</li>
+<li>
+<p>Insert the 2 nuts <a href="Parts/M5sqnut.html">M5 square</a>  into the holes in the Acc part. </p>
+</li>
+<li>
+<p>Reapet the same proces for the second Acc part.</p>
+</li>
+</ul>
+<p><img alt="" src="images/1_chassis/Acc.jpg" title="" /></p>
+<h2 class="page-step" id="clamping-screws">Step 5: Clamping screws</h2>
+<ul>
+<li>Insert the 4 clamping screws, <a href="Parts/M5x120.html">M5x120</a> and do not tighten the screws before placing the segregostat on the cytometer.</li>
+</ul>
+<p><img alt="" src="images/1_chassis/ChassisAccs.jpg" title="" /></p>
+<h2 class="page-step" id="more-screws-to-hold-it-in-place">Step 6: More screws to hold it in place</h2>
+<ul>
+<li>
+<p>First insert the  <a href="Parts/M4nut.html">M4 Nuts</a> (x8) (<span style="color:red">Red arrows</span>) from below.</p>
+</li>
+<li>
+<p>Secondly, screw with <a href="Parts/M2x12CHC.html">M2x12</a> (x8) on top (<span style="color:green">Green arrows</span>).</p>
+</li>
+</ul>
+<h3><span style="color:red">!! Do not tighten, the frame must be able to move !!</span></h3>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/1_chassis/chassisBackNut1.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/1_chassis/Botzoom.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/1_chassis/chassisBackChc1.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/1_chassis/Topzoom.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/1_chassis/chassisBackNut1.jpg" alt=""/></div>
+<p><span style="color:red">!! Do not tighten, the frame must be able to move !!</span></p>
+<h2 class="page-step" id="motherboard">Step 7: Motherboard</h2>
+<ul>
+<li>Get a <a Class="missing" href="missing">7 open end wrench</a> ready.</li>
+<li>Put the 4 screws <a href="Parts/M5x25hex.html">M5x25 HEX</a> from the bottom of the Frame.</li>
+<li>Put 4 <a href="models/Spacer.html" title="">Spacer.stl</a>  (3d Printed <span style="color:red">Red arrow</span>), the <a href="Parts/Motherboard.html">Motherboard</a>, and then thighten with 4 x <a href="Parts/M4nut.html">M4 Nuts</a> (<span style="color:green">Green arrow</span>) using the open end wrench. </li>
+</ul>
+<p><span style="color:red">! It's necessary to tighten without tightening completely !</span></p>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/1_chassis/screwBoard.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/1_chassis/BoardSpacerNut.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/1_chassis/screwBoard.jpg" alt=""/></div>
+<hr />
+<h2 class="page-step" id="congratulations-the-first-part-is-done">Step 8: Congratulations, the first part is done</h2>
+<p><img alt="" src="images/1_chassis/fullFrame.jpg" title="" /></p>
+<p><em>The frame must look like the picture.</em></p>
+<hr />
+<p><a href="landing_BOM.html">Previous page</a> | <a href="2_Rear_panel_mounting.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.terra.uliege.be/cms/c_4054766/en/terra">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png">
+    <span class="info">Technical documentation for the Segregostat ©</span>
+</a>
+    <p class="author">©2021 Andrew ZICLER</p>
+    <p class="email">Contact: <a href="mailto:andrew.zicler@gmail.com">andrew.zicler@gmail.com</a></p>
+
+    </div>
+</footer></body>
+</html>
